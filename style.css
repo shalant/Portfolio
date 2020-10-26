@@ -1,6 +1,6 @@
 body {
   /*"background-image: url('images/pexels-adrien-olichon-2387532.jpg');"*/
-  color: 808080;
+  color: 686262;
   background-image: url('images/pexels-flo-maderebner-623919.jpg');
   background-size: auto;
   }
@@ -48,8 +48,12 @@ input[type=text], select, textarea {
   }
 
 #header {
-  style: "margin-bottom:0";
+  margin-bottom: 0;
   font-family: Raleway;
+  font-size: larger;
+  font-weight: 900;
+  color: #686262;
+  background-image: url('images/pexels-eberhard-grossgasteiger-2088170\(1\).jpg');
 }
 
 #tech-used {
@@ -61,4 +65,21 @@ input[type=text], select, textarea {
 
 .fab fa-js {
   color: pink;
+}
+
+#bio-text {
+  font-size: 23px;
+}
+
+#lynx {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+#nav-bar {
+   /*"background-image: url('images/pexels-adrien-olichon-2387532.jpg');"*/
+   color: 686262;
+   background-image: url('images/pexels-adrien-olichon-2387532.jpg');
+   font-size: larger;
 }
