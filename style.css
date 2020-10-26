@@ -5,6 +5,10 @@ body {
   background-size: auto;
   }
 
+#contact-background {
+  background-position: center;
+}
+
 h1 {
   font-family: 'Raleway', sans-serif;
 }
@@ -82,4 +86,14 @@ input[type=text], select, textarea {
    color: 686262;
    background-image: url('images/pexels-adrien-olichon-2387532.jpg');
    font-size: larger;
+}
+
+#contact-page {
+  font-size: x-large;
+  margin-top:30px
+}
+
+#contact-info {
+  font-size: xx-large;
+  font-weight: 1200;
 }
