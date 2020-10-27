@@ -1,12 +1,14 @@
 body {
   /*"background-image: url('images/pexels-adrien-olichon-2387532.jpg');"*/
   color: 686262;
-  background-image: url('images/pexels-flo-maderebner-623919.jpg');
+  /*background-image: url('images/pexels-flo-maderebner-623919.jpg');*/
+  background-color: rgb(79, 75, 79);
   background-size: auto;
   }
 
 #contact-background {
   background-position: center;
+  color: #dd7272
 }
 
 h1 {
@@ -14,7 +16,18 @@ h1 {
 }
 
 h2 {
+  text-align: center;
+  font-weight: bolder;
   }
+
+h3 {
+  font-weight: bolder;
+}
+
+p {
+  font-size: large;
+  font-weight: bold;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -56,12 +69,12 @@ input[type=text], select, textarea {
   font-family: Raleway;
   font-size: larger;
   font-weight: 900;
-  color: #686262;
+  color: #dd7272;
   background-image: url('images/pexels-eberhard-grossgasteiger-2088170\(1\).jpg');
 }
 
 #tech-used {
-  color: 808080;
+  color: #dd7272;
   position: relative;
   text-align: center;
 
@@ -73,6 +86,9 @@ input[type=text], select, textarea {
 
 #bio-text {
   font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  color: #dd7272;
 }
 
 #lynx {
@@ -83,17 +99,35 @@ input[type=text], select, textarea {
 
 #nav-bar {
    /*"background-image: url('images/pexels-adrien-olichon-2387532.jpg');"*/
-   color: 686262;
+   color: #dd7272;
    background-image: url('images/pexels-adrien-olichon-2387532.jpg');
+   background-blend-mode:screen;
    font-size: larger;
 }
 
 #contact-page {
   font-size: x-large;
-  margin-top:30px
+  margin-top:30px;
+  color: #dd7272
 }
 
 #contact-info {
   font-size: xx-large;
   font-weight: 1200;
+  color: #dd7272
+}
+
+#portfoliio {
+  margin: 20px 0px 20px 0px;
+}
+
+.portfolio {
+  background-size: 5000px;
+  background-position: right;
+  background-position: center;
+  color: #dd7272
+}
+
+#footer {
+  background-image: url('images/pexels-adrien-olichon-2387532.jpg');
 }
