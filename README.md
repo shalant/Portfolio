@@ -1,6 +1,6 @@
 # Responsive Portfolio
 
-## Link: https://shalant.github.io/ResponsivePortfolio/
+## Link: https://shalant.github.io/Portfolio/
 
 ## Technologies Used:
 ### HTML, CSS, Javascript
